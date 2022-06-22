@@ -5,6 +5,12 @@ body{
     border-radius: 10px;
     border: 10px;
     background-color: white;
+    display: inline;
+   
+}
+#menu{
+    padding: 0px;
+    top: 5px;
 }
 #carouselExampleControls{ padding: 10px;
     margin: 10px;
@@ -14,18 +20,17 @@ body{
 }
 #card{ 
     display: inline-block;
-   height: 400px;
-   width: 400px;
+   min-height: 400px;
+  width: 200px;
    border: 20px;
    background-color: aliceblue;
    margin: 100px;
    justify-content: space-between;
  }
  .card-img-top{
-    width: auto;
-    height: auto;
-    max-width: 280px;
-    max-height: 300px;
+  min-height: 250px;
+    
+   
  }
 .form-floating{
     width: 1000px;
